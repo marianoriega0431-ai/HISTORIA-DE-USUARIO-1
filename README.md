@@ -10,7 +10,7 @@ while True:
         break
     except ValueError:
         print("Error: Debe ingresar un número válido para el precio.")
-        
+
 while True:
     try:
         cantidad = int(input("Ingrese la cantidad del producto: "))
@@ -18,9 +18,9 @@ while True:
     except ValueError:
         print("Error: Debe ingresar un número entero válido para la cantidad.")
 
-total = precio * cantidad
+costo_total = precio * cantidad
 print("--- Producto registrado ---")
 print("Producto:", nombre)
-print("Precio:", precio)
+print("Precio unitario:", precio)
 print("Cantidad:", cantidad)
-print("Total en inventario:", total)
+print("Costo total del inventario:", costo_total)
