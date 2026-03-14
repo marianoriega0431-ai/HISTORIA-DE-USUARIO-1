@@ -1,15 +1,18 @@
-Proyecto: Calculadora de Inventario
-Este es un pequeño programa que hice en Python para practicar la entrada de datos y las validaciones. La idea es registrar un producto, su precio y la cantidad, y que el programa nos diga cuánto es el total.
-¿Qué hace el programa?
-Te pide el nombre del producto (solo deja poner letras).
-Te pide el precio y revisa que no sea un número negativo.
-Te pide la cantidad y también revisa que sea válida.
-Si te equivocas escribiendo algo, el programa te avisa con un mensaje de error y te deja intentar de nuevo.
-Cómo lo hice
-Use Python y varias herramientas que estamos aprendiendo:
-Ciclos while para que el programa no se cierre si hay un error.
-Bloques try y except para manejar cuando el usuario escribe letras en vez de números.
-Condicionales if para validar los precios y cantidades.
-Para ejecutarlo:
-Solo necesitas tener Python instalado y correr el archivo:
-python INVENTARIO.PY
+SISTEMA DE INVENTARIO - CALCULADORA
+Inventario en Python por: MARIA JOSE NORIEGA MORENO
+CLAN: 8 COHORTE: 5
+Descripción
+Este es un programa sencillo en Python que simula el registro de productos en un inventario para una tienda.
+El usuario ingresa los detalles del artículo (nombre, precio y cantidad) y el sistema calcula automáticamente el costo total del stock.
+Campos Disponibles
+Nombre del Producto
+Precio del Producto
+Cantidad en Stock
+Cómo Funciona
+El programa muestra un mensaje para pedir el nombre del producto (solo letras).
+El usuario ingresa el precio unitario del producto.
+El usuario ingresa la cantidad disponible en el inventario.
+El programa usa bloques try y except para validar que los datos sean números y no se cierre por errores.
+Al final, multiplica el precio por la cantidad para sacar el total.
+Resultado
+El programa muestra un resumen con el nombre del producto, el precio, la cantidad y el valor Total calculado.
